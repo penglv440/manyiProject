@@ -1,0 +1,57 @@
+html,body{
+    /*min-width:1370px;*/
+    /*overflow-x: hidden;*/
+    /*font-size:100px;*/
+}
+/*reset css*/
+/*Margin的默认样式初始化*/
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd{
+    margin:0;
+}
+/*padding的样式初始化*/
+ul,ol,td,th{
+    padding:0;
+}
+/*列表的样式初始化*/
+ul,ol,li{
+    list-style:none;
+}
+/*font-style的样式初始化*/
+em{
+    font-style：normal;
+}
+/*下划线的样式初始化*/
+a{
+    text-decoration:none;
+}
+/*table的样式初始化*/
+table{
+    border-collapse:collapse;
+}
+/*BFC的方法*/
+.clear:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+/*public css*/
+/*header css*/
+/*nav css*/
+/*search css*/
+/* content css*/
+/*main css*/
+/*sideBar css*/
+/*footer css*/
+a:link{
+    color:rgba(102,102,102,1);
+}
+a:visited{
+    color:rgba(102,102,102,1);
+}
+a:hover{
+    text-decoration:none;
+    color:rgba(36,199,139,1);
+}
+ a:active {
+    color: rgba(36,199,139,1);
+}

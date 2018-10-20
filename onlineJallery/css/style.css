@@ -1,0 +1,18 @@
+/*public style*/
+a:link{
+    color:rgba(102,102,102,1);
+}
+a:visited{
+    color:rgba(102,102,102,1);
+}
+a:hover{
+    text-decoration:none;
+    color:rgba(36,199,139,1);
+}
+a:active{
+    color:rgba(102,102,102,1);
+}
+
+
+
+

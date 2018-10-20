@@ -1,0 +1,93 @@
+
+
+
+
+
+
+.timeliner
+{
+	margin-top:0;
+	padding:0;
+	position:absolute;
+	display:none;
+	z-index:0;
+}
+.timeliner .slide{margin:0;padding:0;list-style:none;overflow:hidden;position:absolute;display:block;}
+.timeliner .timeline
+{
+	display:block;
+	position:absolute;
+	z-index:2;
+	list-style:none;
+}
+.timeliner .innertimeline
+{
+	position:absolute;
+	bottom:0;
+	z-index:3;
+	overflow:hidden;
+}
+.timeliner .timedisplay{position:absolute;text-align:right;cursor:default;white-space:nowrap;}
+.timeliner .node{position:absolute;z-index:4;cursor:pointer;}
+.timeliner .tooltip{position:absolute;white-space:nowrap;display:none;}
+
+
+.timeliner .pause, .timeliner .play, .timeliner .previous, .timeliner .next
+{
+	position:absolute;list-style:none;z-index:3;cursor:pointer;
+}
+
+
+.timeliner .previous, .timeliner .next{z-index:2;}
+.timeliner img{vertical-align:bottom}
+
+/* The container */
+#example1{background:#fff url(loading.gif) center no-repeat;border:1px solid #dedede;}
+/* Each slide */
+#example1 .slide{background:#000 ;padding:140px 45px 0 45px;font: 20px 'segoe ui',helvetica,arial,sans-serif;line-height:120%;color:#3c3c3c;}
+/* The timeline background */
+#example1 .timeline
+{
+	background:#fff;
+	border-top:1px solid #fff;
+	border-bottom:1px solid #fff;
+}
+/* The timeline fill bar */
+#example1 .innertimeline
+{
+	background:#24C78B;
+}
+/* The time display */
+
+/*no use */
+#example1 .timedisplay{color:#000;}
+
+/* Each node */
+#example1 .node
+{
+	background:red;
+	width:2px;
+	height:6px;
+}
+/* The active node */
+
+#example1 .node_active
+{
+	background:red;
+}
+/* Each node tooltip */
+#example1 .tooltip{background:#fff;padding:5px 8px;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;opacity:0.8;filter:alpha(opacity=80);}
+/* The time display inside a tooltip */
+#example1 .tooltiptime{font-size:8pt;font-weight:bold;}
+/* The pause/play button */
+#example1 .pause, #example1 .play{width:80px;height:80px;}
+/* The pause button */
+#example1 .pause{background:#000 url(zg-bofangjian@2x.png) center no-repeat;}
+/* The play button */
+#example1 .play{background:#000 url(zg-bofangjian@2x.png) center no-repeat;}
+/* The previous/next buttons */
+#example1 .previous, #example1 .next{width:43px;height:50px;}
+/* The previous button */
+#example1 .previous{background:#000 url(zg-qiehuanzuo@3x.png) center no-repeat;-webkit-border-radius:6px 0 0 6px;-moz-border-radius:6px 0 0 6px;border-radius:6px 0 0 6px;}
+/* The next button */
+#example1 .next{background:#000 url(zg-qiehuan@3x.png) center no-repeat;-webkit-border-radius:0 6px 6px 0;-moz-border-radius:0 6px 6px 0;border-radius:0 6px 6px 0;}

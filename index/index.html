@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <!--<meta name="viewport"-->
+          <!--content="width=device-width, initial-scale=1">-->
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta content="漫艺是一家以文化艺术品为交易的公司" name="description">
+    <meta content="漫艺，文化，书画品，平台，艺术家，作品集，油画，版画" name="keywords">
+    <link rel="icon" type="image/x-icon" href="image/logo.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/swiper-4.3.3.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/article.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>漫艺首页</title>
+    <style>
+        /*修改分页器属性*/
+        .swiper-pagination-bullet{
+            background:lightgray;
+        }
+        .swiper-button-prev{
+            left:40px;
+        }
+        .swiper-button-next{
+            right:40px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 导航头部 -->
+    <header>
+    <!-- 一级导航栏 -->
+        <div id="nav">
+
+            <ul>
+                <li class="nav_li"><a href="#"><img class="logo" src="image/s_logo.png" alt="logo"></a></li>
+                <li class="nav_li li_border"><a  class="nav_li_active" href="">首页</a></li>
+                <li class="nav_li li_border"><a href="/manyi/creater/createrWelcome/creater_center_welcome.html">创作中心</a></li>
+                <li class="li_border"><a href="#">云智库</a></li>
+                <li class="nav_li_reg"><a href="/manyi/login/loginAndRegister/register.html"><img class="reg_logo" src="image/s_zhuce.png" alt="reg_logo"></a></li>
+                <li class="nav_li_login"><a href="/manyi/login/loginAndRegister/login.html"><img class="login_logo" src="image/s_denglu.png" alt="login_logo"></a></li>
+            </ul>
+
+        </div>
+        <hr style="margin:0">
+
+        <!--二级导航栏-->
+        <div id="sec_nav">
+            <ul>
+                <li class="sec_nav_li1"><a  class="nav_li_active" href="#">漫步艺术</a></li>
+                <li class="sec_nav_li2"><a  href="/manyi/worksClassify/works_classify.html">作品集分类</a></li>
+                <li class="sec_nav_li3"><a  href="/manyi/artists/artists.html">艺术家</a></li>
+                <li class="sec_nav_li4"><a href="manyi/ranking/manYiFengYun/manyi_fengyun_bang.html">排行榜</a></li>
+                <li class="sec_nav_li5"><a href="/manyi/seriesAlbum/series_album.html">系列专辑</a></li>
+            </ul>
+        </div>
+
+    </header>
+
+    <!-- 页面主体部分 -->
+    <article>
+        <!--轮播图-->
+
+        <div id="slide_bar">
+            <div class="swiper-container swiper_container">
+                <div class="swiper-wrapper swiper_wrapper">
+                    <div class="swiper-slide swiper_slide">
+						<img src="image/slide_picture2.jpg" class="background"/>
+                        <!--遮罩层-->
+                        <div class="slide_shadow" style="text-align:center">
+                            <p class="slide_text1">
+                                <a href="#">随 / 时 / 随 / 地</a>
+                            </p>
+                            <p  class="slide_text2">
+                                <a href="#">漫 步 艺 术 殿 堂</a>
+                            </p>
+                            <p class="slide_text3">
+                                <a href="#">立即漫步</a>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper_slide">
+						<img src="image/slide_picture2.jpg" class="background"/>
+                        <!--遮罩层-->
+                        <div class="slide_shadow" style="text-align:center">
+                            <p class="slide_text1">
+                                <a href="#">随 / 时 / 随 / 地</a>
+                            </p>
+                            <p  class="slide_text2">
+                                <a href="#">漫 步 艺 术 殿 堂</a>
+                            </p>
+                            <p class="slide_text3">
+                                <a href="">立即漫步</a>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper_slide">
+						<img src="image/slide_picture2.jpg" class="background"/>
+                        <!--遮罩层-->
+                        <div class="slide_shadow" style="text-align:center">
+                            <p class="slide_text1">
+                                <a href="#">随 / 时 / 随 / 地</a>
+                            </p>
+                            <p  class="slide_text2">
+                                <a href="#">漫 步 艺 术 殿 堂</a>
+                            </p>
+                            <p class="slide_text3">
+                                <a href="">立即漫步</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide swiper_slide">
+						<img src="image/slide_picture2.jpg" class="background"/>
+                        <!--遮罩层-->
+                        <div class="slide_shadow" style="text-align:center">
+                            <p class="slide_text1">
+                                <a href="#">随 / 时 / 随 / 地</a>
+                            </p>
+                            <p  class="slide_text2">
+                                <a href="#">漫 步 艺 术 殿 堂</a>
+                            </p>
+                            <p class="slide_text3">
+                                <a href="#">立即漫步</a>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev swiper-button-white"></div><!--左箭头-->
+                <div class="swiper-button-next swiper-button-white"></div><!--右箭头-->
+            </div>
+
+        </div>
+
+        <!--热门推荐-->
+        <div id="hot_introdce">
+            <p class="hot_text_en">
+                Hot introduction
+            </p>
+            <p class="hot_text_ch">
+                <span class="hot_text_left">热门推荐</span>
+                <span class="hot_text_right"><a href="/manyi/creater/createrCenter/creater_center.html">我也要创作</a></span>
+            </p>
+            <p class="hot_line">
+                <img src="image/s_biaoti_gang.png" alt="line">
+            </p>
+            <!--卡片部分-->
+            <div class="d-flex flex-wrap bg-light justify-content-between" style="margin-top:-0.3rem;margin-bottom:0.11rem">
+                <div class="border card">Flex item 1</div>
+                <div class="border card">Flex item 2</div>
+                <div class="border card">Flex item 3</div>
+                <div class="border card">Flex item 4</div>
+                <div class="border card">Flex item 1</div>
+                <div class="border card">Flex item 2</div>
+                <div class="border card">Flex item 3</div>
+                <div class="border card">Flex item 4</div>
+            </div>
+            <!--查看更多-->
+            <p class="hot_look_more">
+                <span class="hot_more_right"><a href="/manyi/worksClassify/works_classify.html">查看更多 >></a></span>
+            </p>
+        </div>
+		<p id="artists">Artists</p>
+        <!--已加入艺术家-->
+        <div id="joined_artists">
+
+            <p class="hot_text_en">
+                JOINED artists
+            </p>
+            <p class="hot_text_ch">
+                <span class="hot_text_left">已加入艺术家</span>
+                <span class="hot_text_right" style="margin-left:6.8rem;"><a href="/manyi/creater/createrCenter/creater_center.html">我也要加入</a></span>
+            </p>
+            <p class="joined_line">
+                <img src="image/s_biaoti_gang.png" alt="line">
+            </p>
+            <!--已加入艺术家 卡片-->
+            <div class="d-flex flex-wrap bg-light ">
+                <div class="border joined_card1" >
+					<img src="image/picture3.jpg" class="pic0">
+					<div id="back_green"></div>
+				  <div id="back_white">
+						<p>陈思幕</p>
+					  <p>优秀的青年作家，热爱创作。2009年毕业创作《文艺复兴》获得毕业创作三等奖并获得西安美术学院优秀毕业生。</p>
+					</div>
+				</div>
+                <div class="border joined_card2">
+				    <img src="image/picture3.jpg" class="pic1">
+					<div class="shadow1"><span class="text">孙一鸣</span></div>
+					<img src="image/picture3.jpg" class="pic2">
+					<div class="shadow2"><span class="text">孙鸣</span></div>
+					<img src="image/picture3.jpg" class="pic3">
+					<div class="shadow3"><span class="text">孙鸣</span></div>
+				</div>
+                <div class="border joined_card3">
+					<img src="image/picture3.jpg" class="pic4">
+					<div class="shadow4"><span class="text">孙一鸣</span></div>
+					<img src="image/picture3.jpg" class="pic5">
+					<div class="shadow5"><span class="text">孙一鸣</span></div>
+				</div>
+            </div>
+            <!--查看更多-->
+            <p class="hot_look_more">
+                <span class="hot_more_right"><a href="/manyi/artists/artists.html">查看更多 >></a></span>
+            </p>
+        </div>
+        <!--search bar-->
+        <div id="search_bar">
+            <p class="search_text1">立即，去探索艺术的世界</p>
+            <div class="clear">
+                <ul class="search_btn">
+                    <li class="search_reg_btn"><a href="/manyi/login/loginAndRegister/register.html">注册</a></li>
+                    <li class="search_login_btn"><a href="/manyi/login/loginAndRegister/login.html">登录</a></li>
+                    <li class="search_go"><a href="">GO</a></li>
+                </ul>
+            </div>
+            <p class="search_text2">
+                海量艺术作品、众多优秀作家尽在漫艺
+            </p>
+			<div class="trapezoid"></div>
+        </div>
+        <!--ranking list-->
+        <div id="ranking_list">
+            <p class="hot_text_en" style="margin-top:0.39rem">
+                THE Ranking List
+            </p>
+            <p class="hot_text_ch">
+                <span class="hot_text_left">排行榜单</span>
+            </p>
+            <p class="hot_line">
+                <img src="image/s_biaoti_gang.png" alt="line">
+            </p>
+            <!--卡片-->
+            <div class="d-flex flex-wrap bg-light ranking_cards ">
+                <!--左边卡片-->
+                <div class="border ranking_card1" >
+                    <p class="ranking_card_text1">
+                        风云榜
+                    </p>
+                    <p class="ranking_card_text2">
+                        艺术大咖
+                    </p>
+                    <hr class="ranking_card_line">
+                    <ul class="ranking_card_ul1">
+                        <li><a href="#">1.吴亦凡</a></li>
+                        <li><a href="#">2.布健</a></li>
+                        <li><a href="#">3.孙一鸣</a></li>
+                        <li><a href="">4.吴亦凡</a></li>
+                        <li><a href="">5.布健</a></li>
+                        <li><a href="">6.孙一鸣</a></li>
+                        <li><a href="">7.吴亦凡</a></li>
+                        <li><a href="">8.布健</a></li>
+                        <li><a href="">9.孙一鸣</a></li>
+                        <li><a href="">10.吴亦凡</a></li>
+                        <li><a href="">11.布健</a></li>
+                        <li><a href="">12.孙一鸣</a></li>
+                    </ul>
+                </div>
+                <!--中间卡片-->
+                <div class="border ranking_card2">
+                    <p class="ranking_card_text1" style="margin-left:1.39rem">
+                        风云榜
+                    </p>
+                    <p class="ranking_card_text2" style="margin-left:1.28rem">
+                        艺术大咖
+                    </p>
+                    <hr class="ranking_card_line" style="margin-left:1.38rem">
+
+                    <ul class="ranking_card_ul2">
+                        <li><a href="#">1.吴亦凡</a></li>
+                        <li><a href="#">2.布健</a></li>
+                        <li><a href="#">3.孙一鸣</a></li>
+                        <li><a href="">4.吴亦凡</a></li>
+                        <li><a href="">5.布健</a></li>
+                        <li><a href="">6.孙一鸣</a></li>
+                        <li><a href="">7.吴亦凡</a></li>
+                        <li><a href="">8.布健</a></li>
+                        <li><a href="">9.孙一鸣</a></li>
+                        <li><a href="">10.吴亦凡</a></li>
+                        <li><a href="">11.布健</a></li>
+                        <li><a href="">12.孙一鸣</a></li>
+                    </ul>
+                </div>
+                <!--右边卡片-->
+                <div class="border ranking_card3">
+                    <p class="ranking_card_text1">
+                        风云榜
+                    </p>
+                    <p class="ranking_card_text2">
+                        艺术大咖
+                    </p>
+                    <hr class="ranking_card_line">
+                    <ul class="ranking_card_ul1">
+                        <li><a href="#">1.吴亦凡</a></li>
+                        <li><a href="#">2.布健</a></li>
+                        <li><a href="#">3.孙一鸣</a></li>
+                        <li><a href="">4.吴亦凡</a></li>
+                        <li><a href="">5.布健</a></li>
+                        <li><a href="">6.孙一鸣</a></li>
+                        <li><a href="">7.吴亦凡</a></li>
+                        <li><a href="">8.布健</a></li>
+                        <li><a href="">9.孙一鸣</a></li>
+                        <li><a href="">10.吴亦凡</a></li>
+                        <li><a href="">11.布健</a></li>
+                        <li><a href="">12.孙一鸣</a></li>
+                    </ul>
+                </div>
+            </div>
+			 <!--查看更多-->
+            <p class="hot_look_more">
+                <span class="hot_more_rank"><a href="/manyi/ranking/manYiFengYun/manyi_fengyun_bang.html">查看更多 >></a></span>
+            </p>
+        </div>
+        <!--系列专辑-->
+        <div id="series_albums">
+            <p class="hot_text_en">
+                A series of albums
+            </p>
+            <p class="hot_text_ch">
+                <span class="hot_text_left">系列专辑</span>
+            </p>
+            <p class="hot_line">
+                <img src="image/s_biaoti_gang.png" alt="line">
+            </p>
+            <!--卡片部分-->
+            <div class="d-flex flex-wrap bg-light justify-content-between" style="margin-top:-0.3rem;margin-bottom:0.11rem">
+                <div class="border card">Flex item 2</div>
+                <div class="border card">Flex item 3</div>
+                <div class="border card">Flex item 4</div>
+                <div class="border card">Flex item 1</div>
+            </div>
+            <!--查看更多-->
+            <p class="hot_look_more">
+                <span class="hot_more_right"><a href="/manyi/seriesAlbum/series_album.html">查看更多 >></a></span>
+            </p>
+        </div>
+    </article>
+    <!-- 页脚 -->
+    <footer>
+        <div id="foot">
+            <a href=""><img class="foot_logo" src="image/s_dibu_logo.png" alt="logo"></a>
+            <ul class="foot_ul">
+                <li><a href="">关于漫艺</a></li>
+                <li><a href="">用户服务协议</a></li>
+                <li><a href="">隐私政策</a></li>
+                <li><a href="">常见问题</a></li>
+                <li><a href="">联系客服</a></li><br>
+                <li class="copyright"><a href="">漫艺公司版权所有&nbsp;&nbsp;漫艺网络经营文化许可证</a></li><br>
+                <li class="copyright"><a href="">Copyright &nbsp;@ 2018 manArt.All Rights Reserved </a></li>
+            </ul>
+
+        </div>
+    </footer>
+
+<script src="js/layout.js"></script>
+<script src='js/jQuery.js'></script>
+<script src="js/style.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/swiper-4.3.3.min.js"></script>
+
+</body>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        loop : true,
+        autoplay: true,//可选选项，自动滑动
+        delay:6000,
+        //设置固定宽度，隐藏时初始化swiper
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        width: window. innerWidth,
+        //设置宽度为全屏
+
+            //窗口缩放时设置width
+            on: {
+                resize: function(){
+                    this.params.width = window. innerWidth;
+                    this.update();
+                },
+            }
+
+    })
+</script>
+</html>

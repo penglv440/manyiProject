@@ -1,0 +1,41 @@
+/*页脚部分*/
+footer{
+    /*width:100%;*/
+    width:13.70rem;
+    height:auto;
+
+    font-size:.16.00rem;
+    background:#484848;
+}
+#foot{
+    /*width:62.5%;*/
+    width:8.57rem;
+    height:1.76rem;
+    /*background:dimgray;*/
+    margin:0 auto;
+}
+.foot_logo{
+    margin-top:0.20rem;
+}
+.foot_ul{
+    display:inline-block;
+    margin-left:0.80rem;
+    margin-top:0.40rem;
+}
+.foot_ul li{
+    float:left;
+    font-size:0.15rem;
+    margin-right:0.50rem;
+}
+.foot_ul li a{
+    color:white;
+}
+.copyright{
+    margin-top:0.25rem;
+
+}
+.foot_style{
+	line-height:0.2rem;
+	height:1rem;
+	margin-bottom:0rem;
+}

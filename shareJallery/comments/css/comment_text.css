@@ -1,0 +1,54 @@
+/*body { font-size: 12px;  text-align: center; color:#333; padding: 20px;}*/
+a { color: #333; text-decoration: none;}
+a:hover { text-decoration: underline;}
+* { margin: 0; padding: 0; border: none;}
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden}
+.clearfix { *height:1%;}
+#list { text-align: left; width: 5.40rem;font-size:0.1rem;width:5.89rem;margin-top:0.2rem;}
+.box { border-top: 0.01rem solid #eee; position: relative;  width:5.89rem; padding: 0.20rem 0}
+.box:hover .close { display: block;}
+.close { display: none; top:0px; right: 0px; width: 0.28rem; height: 0.28rem; border: 0.01rem solid #eee; position: absolute; background: #f2f4f7; line-height: 0.27rem; text-align: center;}
+.close:hover { background: #c8d2e2; text-decoration: none;}
+.head { float: left; width: 0.60rem; height: 0.60rem; margin-right: 0.10rem;}
+.content { float: left; width: 5.19rem;}
+.main { margin-bottom: 0.10rem;}
+.txt {margin-top:0.2rem;margin-bottom:0.35rem;}
+.user { color:rgba(34,34,34,1);font-size:0.14rem;font-weight:500;}
+.pic { margin-right: 0.05rem; width: 2.00rem; border: 0.01rem solid #eee;}
+.info { height: 0.20rem; line-height: 0.19rem; font-size: 0.12rem; margin: 0 0 0.10rem 0;}
+.info .time { color: #ccc; float: left; height: 0.20rem; padding-left: 0.20rem; background: url("images/bg1.jpg") no-repeat left top;}
+.info .praise { color: #369; float: right; height: 0.20rem; padding-left: 0.18rem; background: url("images/bg2.jpg") no-repeat left top;}
+.info .praise:hover { text-decoration: underline; background: url("images/bg3.jpg") no-repeat left top;}
+.praises-total { margin: 0 0 0.10rem 0; height: 0.20rem; background: url("images/praise.png") no-repeat 0.05rem 0.05rem rgb(247, 247, 247); padding: 0.05rem 0 0.05rem 0.25rem; line-height: 0.19rem;}
+.comment-box { padding: 0.10rem 0; border-top: 0.01rem solid #eee;}
+.comment-box:hover { background: rgb(247, 247, 247);}
+.comment-box .myhead { float: left; width: 0.30rem; height: 0.30rem; margin-right: 0.10rem;}
+.comment-box .comment-content { float: left; width: 4.00rem; }
+.comment-box .comment-content .comment-time { color: #ccc; margin-top: 0.03rem; line-height: 0.16rem; position: relative;}
+.comment-box .comment-content .comment-praise { display: none; color: #369; padding-left: 0.17rem; height: 0.20rem; background: url("images/praise.png") no-repeat;  position: absolute; bottom: 0rem; right: 0.44rem;}
+.comment-box .comment-content .comment-operate { display: none; color: #369; height: 0.20rem;  position: absolute; bottom: 0rem; right: 0.10rem;}
+.comment-box .comment-content:hover .comment-praise { display: inline-block;}
+.comment-box .comment-content:hover .comment-operate { display: inline-block;}
+.text-box .comment { border: 0.01rem solid #eee; display: block; height: 0.30rem; width: 4.28rem; padding: 0.05rem; resize: none; color: #ccc}
+.text-box .btn { font-size: 0.12rem; font-weight: bold; display: none; float: right; width: 0.65rem; height: 0.25rem; border: 0.01rem solid #0C528D; color: #fff; background: #4679AC;}
+.text-box .btn-off { border: 0.01rem solid #ccc; color: #ccc; background: #F7F7F7;}
+.text-box .word{ display: none; float: right; margin: 0.07rem 0.10rem 0 0; color: #666;}
+.text-box-on .comment{ height: 0.50rem; color: #333;}
+.text-box-on .btn{ display: inline;}
+.text-box-on .word{ display: inline;}
+.my_comment{margin-top:0.17rem;font-size:0.1rem;margin-bottom: 0.1rem;}
+.my_comment_title{font-weight:500;color:#222;font-size:0.16rem;border-left: 2px solid #24C78B;}
+.my_comment_text{border:0.01rem solid lightgray;background:rgba(250,250,250,1);font-size:0.1rem;}
+.submit_text{margin-top:0.16rem; width:5.59rem;margin-left: 0.15rem;}
+.submit_text_btn{background: #24C78B;border-radius:0.03rem;height:0.3rem;width:0.6rem;margin-left:0.15rem;}
+.better_comment{font-weight:500;color:#222;font-size:0.16rem;border-left: 2px solid #24C78B;}
+.set_top{font-size:0.1rem;border-radius:0.05rem;background:rgba(255,255,255,1);color:rgba(102,102,102,1);border:0.01rem solid rgba(231,231,231,1);width:0.4rem;}
+.content_text{margin-top:0.30rem;font-size:0.1rem;line-height:0.25rem;color:rgba(102,102,102,1) ;}
+.share_and_comment{margin-top:-0.7rem;}
+.user_replay{font-size:0.1rem;width:5.19rem;height:1.7rem;border-top-color:rgba(255,255,255,1);}
+.head_img{
+	width: 0.6rem;
+	height: 0.6rem;
+	border-radius: 50%;
+	background: url(../image/picture.jpg) no-repeat center/cover;
+}

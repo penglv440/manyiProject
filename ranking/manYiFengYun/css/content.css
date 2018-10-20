@@ -1,0 +1,335 @@
+@charset "UTF-8";
+.content{
+	padding: 33px;
+	color: #666;
+	background-color: #fafafa;
+	font-family:PingFang-SC-Medium;
+}
+.content a{
+	font-family:PingFang-SC-Medium;
+	color: inherit;
+}
+.sidebar p.title a{
+	font-size: 20px;
+}
+.sidebar ul{
+	background-color: #fff;
+	width: 182px;
+	padding: 0 24px;
+	margin-top: 33px;
+	border-radius: 6px;
+	text-indent: 0.5em;
+}
+.sidebar ul li ol{
+	border-top: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+}
+.sidebar ul li{
+	font-size: 18px;
+	padding: 7px 0 ;
+}
+.sidebar ul li:first-child{
+	padding: 21px 0 0;
+}
+.sidebar ul li p{
+	/*padding-bottom: 21px;*/
+}
+.sidebar ul li i{
+	vertical-align: middle;
+	font-size: 48px;
+
+}
+.sidebar ul li ol li{
+	font-size: 16px;
+	text-indent: 1em;
+	padding: 21px 0 ;
+}
+.sidebar ul li ol li:last-child{
+	padding-top: 0;
+}
+.sidebar ul li#expert{
+	border-top: 1px solid #e7e7e7;
+}
+.container{
+	width: 920px;
+}
+.container .works .title{
+	height: 59px;
+	background-color: rgba(36,199,139,0.1);
+	border-top: 1px solid #24C78B;
+	position: relative;
+}
+.container .works .title span{
+	position: absolute;
+	color: #222;
+	font-size: 16px;
+	line-height: 59px;
+}
+.container .works .title span.artwork{
+	left: 12%;
+}
+.container .works .title span.artist{
+	left: 45.55%;
+}
+.container .works .title span.album{
+	left: 69.63%;
+}
+.container .works .title span.pageviews{
+	left: 92.08%;
+}
+.container .works ol li{
+	height: 96px;
+	list-style: decimal;
+	list-style-position: inside;
+	color: #222;
+	line-height: 96px;
+	padding-left: 22px;
+	position: relative;
+}
+.container .works ol li.firstthree{
+	color: #FE8277;
+}
+.container .works ol li:nth-child(even){
+	background-color: #fafafa;
+}
+.container .works ol li:nth-child(odd){
+	background-color: #fff;
+}
+.container .works ol li .pic{
+	width: 102px;
+	height: 56px;
+	background: url('../images/1.jpg') no-repeat center/cover;
+	position: absolute;
+	left: 8.24%;
+	top: 50%;
+	margin-top: -28px;
+}
+.container .works ol li p{
+	position: absolute;
+	color: #666;
+	font-size: 14px;
+	font-family:SanFranciscoDisplay-Regular;
+	text-align: center;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.container .works ol li p.name{
+	left: 18.91%;
+	top: 50%;
+	margin-top: -48px;
+	width: 10em;
+}
+.container .works ol li p.artist{
+	left: 44.4%;
+	top: 50%;
+	margin-top: -48px;
+	width: 5em;
+	
+}
+.container .works ol li p.album{
+	left: 63.9%;
+	top: 50%;
+	margin-top: -48px;
+	width: 10em;
+
+}
+.container .works ol li p.pageviews{
+	left: 90.95%;
+	top: 50%;
+	margin-top: -48px;
+	width: 5em;
+}
+.container .works ol li div.shadow{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: rgba(0,0,0,0.3);
+	display: none;
+}
+.container .works ol li div.shadow div{
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	border:1px solid #fff;
+	background-color: #fff;
+	margin:25px 32px;
+	position: relative;
+	cursor: pointer;
+}
+.container .works ol li div.shadow div:hover{
+	border:1px solid #24C78B;
+}
+.container .works ol li div.shadow div:hover i{
+	color: #24C78B;
+}
+.container .works ol li div.shadow div:first-child{
+	margin-left: 321px;
+}
+.container .works ol li div.shadow div i{
+	font-size: 18px;
+	color: #999;
+	font-weight: bold;
+	position: absolute;
+	top: -25px;
+	left: 14px;
+}
+.container .works ol li:hover div.shadow{
+	display: block;
+}
+.container .works .pages {
+	background-color: #fff;
+	padding-top: 36px;
+
+}
+.container .works .pages li{
+	width: 38px;
+	height: 38px;
+	border-radius: 4px;
+	border: 1px solid #eee;
+	float: left;
+	margin-right: 10px;
+	line-height: 40px;
+	text-align: center;
+}
+.container .works .pages li:first-child{
+	margin-left: 160px;
+}
+.container .works .pages li:hover{
+	border: 1px solid #24c78b;
+}
+.container .opinion{
+	padding: 36px 23px;
+	background-color: #fff;
+}
+.container .opinion li{
+	color: #222;
+}
+.container .opinion li p.title:before{
+	content: "";
+	height: 20px;
+	border-left: 3px solid #24c78b;
+	margin-right: 12px;
+}
+.container .opinion li p.line{
+	width: 100%;
+	height: 1px;
+	border-top: 1px solid #e7e7e7;
+	margin: 27px 0 24px;
+}
+.container .opinion li.my-opinion div{
+	width: 820px;
+	height: 106px;
+	margin: 0 auto;
+	background-color: #fafafa;
+	border-radius: 6px;
+	outline: none;
+	padding: 10px;
+}
+.container .opinion li.my-opinion i{
+	font-size: 30px;
+	margin-right: 20px;
+	line-height: 36px;
+	cursor: pointer;
+	color: #999;
+}
+.container .opinion li.my-opinion button{
+	color: #fff;
+	background-color: #24c78b;
+	border: none;
+	width: 90px;
+	height: 36px;
+	font-size: 14px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.container .opinion li.my-opinion .submit{
+	width: 840px;
+	margin: 24px auto 35px;
+}
+.container .opinion .wonder-opinion .list .head-img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-right: 16px;
+	border: 2px solid #24c78b;
+	background: url(../images/2.png) no-repeat center/cover;
+}
+.container .opinion li.wonder-opinion ol.list .writer #name{
+	width: 200px;
+	font-size: 16px;
+	line-height: 54px;
+}
+.container .opinion li.wonder-opinion ol.list .writer .time{
+	color: #999;
+	font-size: 14px;
+	line-height: 54px;
+}
+.container .opinion li.wonder-opinion ol.list .comment{
+	color: #999;
+	font-size: 14px;
+	margin: 24px 7px 32px 70px;
+	line-height: 30px;
+}
+.container .opinion li.wonder-opinion ol.list .reply{
+	padding: 0 21px 0 70px;
+	color: #999;
+	font-size: 19px;
+}
+.container .opinion li.wonder-opinion ol.list .reply span{
+	font-size: 10px;
+	margin: 0  18px 0 8px;
+	line-height: 28px;
+}
+.container .opinion li.wonder-opinion ol.list .reply p{
+	font-size: 14px;
+	color: #666;
+	cursor: pointer;
+}
+.container .opinion li.wonder-opinion ol.list .reply div {
+	width: 812px;
+	margin-top: 27px;
+	position: relative;
+	display: none;
+}
+.container .opinion li.wonder-opinion ol.list .reply div textarea{
+	width: 100%;
+	height: 100px;
+	outline:none;
+	background-color: #fafafa;
+	resize: none;
+}
+.container .opinion li.wonder-opinion ol.list .reply div button{
+	font-size:14px;
+	color:rgba(36,199,139,1);
+	position: absolute;
+	bottom: 0.7em;
+	right: 0.7em;
+	border: none;
+	background-color:  #fafafa;
+	cursor: pointer;
+	outline: none;
+}
+.container .opinion .pages {
+	background-color: #fff;
+	padding-top: 36px;
+
+}
+.container .opinion .pages li{
+	width: 38px;
+	height: 38px;
+	border-radius: 4px;
+	border: 1px solid #eee;
+	float: left;
+	margin-right: 10px;
+	line-height: 40px;
+	text-align: center;
+}
+.container .opinion .pages li:first-child{
+	margin-left: 160px;
+}
+.container .opinion .pages li:hover{
+	border: 1px solid #24c78b;
+}

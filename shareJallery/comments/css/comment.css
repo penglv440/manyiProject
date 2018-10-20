@@ -1,0 +1,182 @@
+
+#comments{
+    width:8.56rem;
+    height:auto;
+    /*border: 1px solid lightgray;*/
+    margin-left:2.58rem;
+    margin-top:0.23rem;
+
+}
+.similar_works{
+    display:block;
+    border-bottom:0.01rem solid lightgray;
+    line-height:0.11rem;
+	padding-bottom:0.11rem;
+    font-size:0.11rem;
+    font-weight:400;
+    color:rgba(34,34,34,1);
+	
+}
+
+.cards{
+    width:2rem;
+    height:4.1rem;
+    margin-left:0.30rem;
+    /*background:rgb(245, 245, 245);*/
+    margin-bottom:0.17rem;
+
+}
+.card_img_details{
+	width:0.77rem;
+	height:0.51rem;
+	border-top-left-radius:0.04rem;
+	border-top-right-radius: 0.04rem;
+}
+#message{
+    width:5.59rem;
+	margin-left:0.15rem;
+	margin-right: 0.15rem;
+    height:1rem;
+    outline:none;
+    resize:none;
+    font-size:0.1rem;
+    /*border:1px solid lightgray;*/
+    margin-top:0.10rem;
+}
+.container .works .pages {
+	background-color: #fff;
+	padding-top: 36px;
+
+}
+.container .opinion .pages {
+	background-color: #fff;
+	padding-top: 36px;
+
+}
+.clearfix:after{
+	content:'';
+	display:block;
+	clear: both;
+}
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-xiaoyuhao:before { content: "\e647"; }
+.icon-dayu:before { content: "\e644"; }
+#pages{
+    /*width:62.5%;*/
+    width:4.5rem;
+    height:0.25rem;
+    /*border:1px solid #24C78B;*/
+    margin-left:0.9rem;
+	margin-top:0.3rem;
+}
+.my_pagination{
+	height:0.25rem;
+	width:5.5rem;
+	padding-left:0.3rem;
+}
+#pages ul{
+    /*width:50%;*/
+    width:4.28rem;
+    height:0.9rem;
+    margin:0 auto;
+    margin-top:0.2rem;
+    margin-bottom:0.6rem;
+
+}
+#pages li{
+    float:left;
+    margin-left:0.05rem;
+    width:0.25rem;
+    height:0.25rem;
+    border-radius:0.04rem;
+    text-align:center;
+    font-size:0.1rem;
+    border:1px solid lightgray;
+	
+}
+.page_active{
+    background:#24C78B;
+	color:rgba(102,102,102,1);
+	padding-top:0.02rem;
+}
+.page_active_2{
+	padding-top:0.02rem;
+}
+.page_previous{
+    background:lightgray;
+	color:rgba(102,102,102,1);
+	padding-top:0.02rem;
+	
+}
+.comment_left{
+	height:auto;
+	background:rgba(255,255,255,1);
+	font-size:0.1rem;
+	border-radius:0.03rem;
+	width:6.21rem;
+}
+.comment_left_content{
+	margin-left:0.16rem;
+	margin-top:0.22rem;
+	margin-right: 0.16rem;
+	margin-bottom: 0.22rem;
+}
+.comment_right{
+	height:3.4rem;
+	width:2rem;
+	font-size:0.1rem;
+	margin-left:0.35rem;
+	background:rgba(255,255,255,1);
+	border-radius:0.04rem;
+	
+}
+.artist_details{
+	margin-top:0.22rem;
+	font-size:0.1rem;
+}
+.artist_details_title{
+    font-size:0.16rem;
+	font-weight:500;
+	color:rgba(34,34,34,1);
+}
+.artist_details_text{
+	margin-top:0.18rem;
+}
+.card_style{
+	height:3.23rem;
+	width:1.66rem;
+	background:rgba(255,255,255,1);
+    margin-left:0.17rem;
+	margin-right: 0.17rem;
+	margin-top: 0.17rem;
+	margin-bottom: 0.17rem;
+	border-radius: 0.03rem;
+	color:rgba(102,102,102,1);
+}
+.card_details{
+	height:0.77rem;
+	width:1.66rem;
+	margin-top:0.17rem;
+}
+.card_text{
+	font-size:0.09rem;
+	margin-left:0.1rem;
+}
+.card_text_details{
+	font-size:0.07rem;
+	color:rgba(153,153,153,1);
+}
+.page_style{
+	color:rgba(102,102,102,1);
+}
+.scan{
+	line-height:0.07rem;
+	font-size:0.07rem;
+	margin-left:0.1rem;
+}

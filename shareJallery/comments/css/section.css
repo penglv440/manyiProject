@@ -1,0 +1,132 @@
+/*section  部分*/
+#creator_introduction{
+
+    width:8.56rem;
+    height:2.84rem;
+    margin-left:2.58rem;
+    /*background:lightgray;*/
+    border-bottom:0.01rem;
+
+}
+.artistic_photo{
+    float:left;
+    width:4.57rem;
+    height:2.84rem;
+    /*margin-top:11px;*/
+    background:#24C78B;
+}
+.artistic_painting{
+	width:4.57rem;
+	height:2.84rem;
+	border-radius:0.04rem;
+}
+.artist_info{
+    float:left;
+    margin-left:0.39rem;
+    width:3.60rem;
+    height:2.84rem;
+    font-size:0.1rem;
+    /*background:lightgray;*/
+    /*margin-top:11px;*/
+}
+.artist_head_picture{
+    width:0.43rem;
+    height:0.43rem;
+    border-radius:50%;
+    /*line-height:0.2rem;*/
+    margin-right:0.14rem;
+	margin-top:0rem;
+    background:rgba(250,250,250,1);
+    display:block;
+    float:left;
+}
+
+.artist_name_text{
+    display:block;
+    float:left;
+    width:3.03rem;
+    height:0.43rem;
+    font-size:0.01rem;
+	color:rgba(102,102,102,1);
+	line-height:0.15rem;
+	padding-top: 0.07rem;
+}
+.author_name{
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(34,34,34,1);
+	font-size:0.11rem;
+}
+.artist_info.btn{
+    height:0.26rem;
+	width:0.69rem;
+	background:rgba(255,255,255,1);
+	border-radius:0.03rem;
+	vertical-align:middle;
+	font-size:0.10rem;
+	
+}
+.artist_info.btn:hover{
+    background:#24C78B;
+
+}
+.btn_setting{
+	height:0.26rem;
+	width:0.69rem;
+	background:rgba(255,255,255,1);
+	border-radius:0.03rem;
+	vertical-align:middle;
+	font-size:0.1rem;
+	border:0.01rem solid rgba(231,231,231,1);
+	font-weight: 400;
+}
+.btn_setting:hover{
+	background:rgba(36,199,139,1);
+}
+.btn_setting_special1{
+	background:#24c78B;
+	width:0.65rem;
+}
+.btn_setting_special2{
+	width:0.72rem;
+}
+.btn_text{
+	color:rgba(102,102,102,1);
+	font-size:0.1rem;
+}
+.btn_img{
+	width:0.11rem;
+	height:0.11rem;
+	border-radius:0.03rem;
+}
+.btn_text_special1{
+	color:#FFFFFF;
+	font-size:0.10rem ;
+}
+.intro_title{
+	height:0.56rem;
+	padding-top:0.24rem;
+	padding-bottom:0.17rem;
+	border-bottom:0.01rem solid lightgray;
+}
+.intro_title_text{
+	line-height:0.15rem;
+	font-size:0.15rem;
+	padding:0rem;
+	color:#222222;
+	font-weight:500;
+}
+.author_infor{
+	height:0.43rem;
+	margin-top:0.22rem;
+}
+.painting_details{
+	height:0.66rem;
+	margin-top:0.2rem;
+}
+.painting_details_text{
+	height:0.66rem;
+	line-height:0.22rem;
+	color:#999999;
+}
+

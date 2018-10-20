@@ -1,0 +1,120 @@
+#create .responsive{
+    margin-left: 250px;
+	margin-right: 250px;
+	margin-top: -4%;
+ }
+#create .img{
+	margin: 3.5px;
+	background-color: #FFFFFF;
+    border: 1px solid #FAFAFA;
+    float: left;
+    width: 200px;
+}
+#create img .qwe{
+	width: 280px;
+	height: 280px;
+	margin: 10px;
+    float: left;
+    width: 228px;
+}
+#create .desc{
+	line-height:15px;
+    padding-left: 9px;
+    text-align: left;
+}
+ .desc img{
+    width: 14px;
+    height: 7.8px;
+	margin-right: 5px;
+}
+#create .img:hover {
+    border: 1px solid #24C78B;
+}
+#create span{
+	text-align:left;
+	margin-left: 256px;
+    font-size:11px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:#222222;
+}
+#create .desc span:nth-of-type(1){
+	width:119px;
+    height:10px;
+	margin-left: auto;
+    font-size:10px;
+    font-family:PingFang-SC-Regular;
+    font-weight:400;
+    color: #222222;
+}
+#create .desc span:nth-of-type(2){
+	width:43px;
+    height:8.6px;
+	margin-left: auto;
+    font-size:8.5px;
+    font-family:PingFang-SC-Regular;
+    font-weight:400;
+    color: #666666;
+}
+#create .desc span:nth-of-type(3),#create .desc span:nth-of-type(4),#create .desc span:nth-of-type(5){
+	width:16px;
+    height:7.8px;
+	margin-left: auto;
+    font-size:10px;
+    font-family:SanFranciscoDisplay-Regular;
+    font-weight:400;
+    color: #999999;
+}
+#collect .responsive{
+    margin-left: 250px;
+	margin-top: -4%;
+ }
+#collect .img{
+	margin: 3.5px;
+	background-color: #FFFFFF;
+    border: 1px solid #FAFAFA;
+    float: left;
+    width: 200px;
+}
+#collect img .qwe{
+    border-radius:6px;
+	margin: 10px;
+    float: left;
+}
+#collect .desc{
+    line-height:15px;
+    padding-left: 9px;
+    text-align: left;
+}
+#collect .img:hover {
+    border: 1px solid #24C78B;
+}
+#collect span{
+	text-align:left;
+	margin-left: 256px;
+    font-size:11px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:#222222;
+}
+#collect .desc span:nth-of-type(1){
+	margin-left: auto;
+    font-size:10px;
+    font-family:PingFang-SC-Regular;
+    font-weight:400;
+    color: #222222;
+}
+#collect .desc span:nth-of-type(2){
+	margin-left: auto;
+    font-size:8.5px;
+    font-family:PingFang-SC-Regular;
+    font-weight:400;
+    color: #666666;
+}
+#collect .desc span:nth-of-type(3),#collect .desc span:nth-of-type(4),#collect .desc span:nth-of-type(5){
+	margin-left: auto;
+    font-size:10px;
+    font-family:SanFranciscoDisplay-Regular;
+    font-weight:400;
+    color: #999999;
+}

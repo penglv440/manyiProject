@@ -1,0 +1,304 @@
+/*public style*/
+html,body{
+    width:1370px;
+    /*height:900px;*/
+    /*background:url('../image/2.登陆注册/background2.jpg') no-repeat 100% 100%;*/
+    /*background-position: left top;*/
+    background:gray;
+    overflow-y:hidden;
+    /*width:1900px;*/
+    /*overflow-x:hidden;*/
+    /*overflow-y:hidden;*/
+}
+article{
+    width:100%;
+    height:600px;
+    margin:141px auto;
+}
+/*登录和注册导航文字*/
+#login_text{
+    width:50%;
+    height:60px;
+    margin:0 auto;
+    text-align:center;
+    line-height:60px;
+    margin-bottom:20px;
+}
+#login_text ul{
+    width:100%;
+    text-align:center;
+    border:none
+}
+#login_text li{
+    width:50px;
+    height:60px;
+    float:left;
+}
+#login_text ul li:nth-of-type(1){
+    margin-left:30%;
+    margin-right:25.4%;
+}
+#login_text .text-active{
+    color:#24C78B;
+    border-bottom:2px solid #24C78B;
+}
+/*表单注册区域*/
+#form_area{
+    width:64%;
+    height:600px;
+    margin:0 auto;
+}
+#form_area div{
+    border-radius:6px;
+}
+#login_form{
+    position:relative;
+    background-color:#FFFFFF;
+}
+#login_form_first{
+    position:absolute;
+    width:280px;
+    height:400px;
+    top:0;
+    left:0;
+    z-index:2;
+    margin-left:160px;
+    margin-top:4%;
+    background-color:white;
+
+}
+#login_form_first .login_input_phone,#login_form_first .login_input_pwd{
+    width:90%;
+    height:55px;
+    margin:0 auto;
+    margin-top:8.6%;
+    border-bottom:1px solid gray;
+    border-radius:0;
+}
+#login_form_first .login_forget_password{
+    width:90%;
+    margin:20px auto;
+    font-size:0.7rem;
+}
+#login_form_first .login_button{
+    width:90%;
+    height:40px;
+    line-height:40px;
+    margin:0 auto;
+    border:1px solid gray;
+    border-radius:25px;
+    background-color:#24C78B;
+}
+#login_form_first .login_button:hover{
+    background:black;
+}
+#login_form_first input{
+    width:92%;
+    border:0;
+    font-size:0.7rem;
+    margin:0 auto;
+    outline:none;
+    padding-top:7px;
+}
+/*2018年8 月19日修改span alert */
+.login_text_alert{
+    font-size:0.7rem;
+    color:#24C78B;
+    /*visibility: hidden;*/
+}
+/*.text_alert_password{*/
+    /*visibility:visible;*/
+/*}*/
+/*登录提示小图片*/
+.login_img_alert{
+    margin-top:3px;
+    visibility:hidden;
+}
+/*上部提示文字*/
+/*span.login_text_alert{*/
+    /*visibility:visible;*/
+/*}*/
+#login_form_first .without_admin{
+    width:100%;
+    height:20px;
+    margin:0 auto;
+    margin-top:20px;
+    font-size:0.6rem;
+}
+#login_form_first .other_login_way{
+    width:100%;
+    height:40px;
+    margin:0 auto;
+}
+#login_shadow{
+    width:240px;
+    height:310px;
+    position:absolute;
+    top:81px;
+    left:246px;
+    background-color:#24C78B;
+    z-index:1;
+}
+
+
+#register_form_first{
+    width:280px;
+    margin-left:300px;
+    margin-top:27px;
+    background-color:white;
+    height:400px;
+    position:absolute;
+    top:0;right:120px;
+    z-index:2;
+    overflow:hidden;  /*2018年8月19日改*/
+}
+/**/
+
+
+
+
+/*span  ： text_alert部分*/
+#register_form_first .register_text_alert{
+    font-size:0.7rem;
+    color:#24C78B;
+    display:block;
+    margin-top:13.5%;
+    visibility: hidden;
+}
+#register_form_first .text_alert_check{
+    margin-top:6%;
+}
+#register_form_first .register_input_phone,#register_form_first .register_input_password,
+#register_form_first .register_input_check,#register_form_first .register_confirm_pwd{
+    width:91%;  /* 2018年8月19日改*/
+    height:55px;
+    margin:0 auto; /*2018年8月19日改*/
+    /*margin-top:8.6%;*/
+    border-bottom:1px solid gray;
+    border-radius:0;
+
+}
+#register_form_first .text_alert_check{
+    margin-top:16%;
+
+}
+.register_img_alert{
+    margin-top:15px;
+    margin-left:20px;
+}
+#register_form_first .register_input_check{
+    margin-top:-10%;
+}
+#register_form_first .register_input_password,#register_form_first .register_confirm_pwd{
+    margin-top:-10%;
+}
+#register_form_first input{
+    width:85%;  /*  2018年8月19日改动*/
+    border:0;
+    font-size:0.7rem;
+    outline:none;
+    padding:0;
+    margin-top:7%;
+}
+#register_from_first .register_input_password span.img_alert_span{
+    margin-left:14px;
+}
+#register_form_first .register_btn{
+    width:90%;
+    height:40px;
+    line-height:40px;
+    margin:0 auto;
+    margin-top:2.25%;
+    border:1px solid gray;
+    border-radius:25px;
+    background-color:lightgray;
+}
+/*#register_form_first .register_btn:hover{*/
+    /*background:black;*/
+/*}*/
+#register_form_first .with_admin{
+    width:100%;
+    height:20px;
+    margin:0 auto;
+    margin-top:10px;
+    font-size:0.6rem;
+}
+#register_shadow{
+    width:270px;
+    height:310px;
+    position:absolute;
+    top:70px;
+    right:170px;
+    background-color:#24C78B;
+}
+
+#input_code{
+    width:75%;
+}
+#code{
+    display: inline-block;
+    width: 25%;
+    height: 34px;
+    /*vertical-align: middle;*/
+    background:rgba(231,231,231,1);
+    font-size: 1rem;
+    color:#999999;
+    text-align: center;
+    line-height: 34px;
+    margin-left: 75%;
+    margin-top: -14%;
+}
+
+.argument{
+    margin-top: 5px;
+}
+.argument input{
+    vertical-align: middle;
+}
+.argument a{
+    text-decoration: none;
+    font-size: 0.7rem;
+}
+.argument a:link{
+    color:#24C78B;
+}
+.argument a:visited{
+    color:#24C78B;
+}
+.argument a:hover{
+    color:gray;
+}
+.argument a:active{
+    color:#24C78B;
+}
+
+#nav a:link{
+    color:rgba(102,102,102,1);
+}
+#nav a:visited{
+   color:rgb(94, 105, 109);
+}
+#nav a:hover{
+    text-decoration:none;
+    color:rgba(36,199,139,1);
+}
+#nav a:active {
+    color: rgba(102, 102, 102, 1);
+}
+#login_text a:link{
+    color:white;
+}
+#login_text a:visited{
+    color:white;
+}
+#login_text a:hover{
+    text-decoration:none;
+    color:rgba(36,199,139,1);
+}
+a:active {
+    color: white;
+}
+
+
+
+

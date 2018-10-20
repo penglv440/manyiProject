@@ -1,0 +1,468 @@
+/*页面主体部分*/
+article{
+    /*width:100%;*/
+    width:13.7rem;
+    /*height:auto;*/
+    font-size:0.1rem;
+    background:rgba(250,250,250,1);
+    border:1px solid white;
+}
+/*轮播图部分*/
+#slide_bar{
+    width:13.7rem;
+    height:4.63rem;
+    margin-bottom:0.34rem;
+    position:relative;
+}
+.swiper_container{
+    width:13.7rem;
+    height:4.61rem;
+}
+.swiper_wrapper{
+    width:13.7rem;
+    height:4.61rem;
+}
+.swiper_slide{
+    width:400%;
+    height:100%;
+    background: #484848;
+	position:relative;
+	margin-left: 0rem;
+	margin-right: 0rem;
+    z-index:1;
+	background-position: center;
+	background-size: cover;
+}
+/*背景图*/
+.background{
+	width: 13.7rem;
+	height: 4.6rem;
+	z-index: -1;
+	position: absolute;
+}
+/*遮罩层*/
+.slide_shadow{
+    width:13.7rem;
+    height:13.7rem;
+    background:black;
+    opacity:0.5;
+    z-index:10;
+}
+.slide_text1{
+    font-size:0.4rem;
+    color:white;
+    opacity:1;
+    padding-top:0.64rem;
+}
+.slide_text2{
+    padding-top:0.26rem;
+    color:white;
+    opacity:1;
+    font-size:0.80rem;
+}
+.slide_text3{
+    width:1.7rem;
+    height:0.47rem;
+    line-height:0.46rem;
+    margin:0 auto;
+    margin-top:0.3rem;
+    color:white;
+    opacity:1;
+    font-size:0.23rem;
+    border:1px solid lightgray;
+    border-radius:0.25rem;
+}
+.slide_text3:hover{
+    background:lightgray;
+}
+
+/*热门推荐部分*/
+#hot_introdce{
+    width:8.55rem;
+    height:5.72rem;
+    /*border:1px solid lightgray;*/
+    margin:0 auto;
+}
+.hot_text_en{
+    font-size:0.19rem;
+    font-family:SanFranciscoDisplay-Semibold;
+    font-weight:600;
+    color:rgba(34,34,34,1);
+    margin-bottom:0.08rem;
+}
+.hot_text_ch{
+    font-size:0.15rem;
+    margin-bottom:0.01rem;
+}
+.hot_text_right{
+    margin-left:7.1rem;
+}
+.hot_line{
+    margin-bottom:0.3rem;
+}
+/*热门推荐卡片部分*/
+.card{
+    height:auto;
+    margin-top:0.21rem;
+    border-radius:0;
+}
+.nav_btn_active{
+
+    background:#24C78B;
+}
+.border{
+    width:2.0rem;
+    height:1.96rem;
+    margin-top:0.17rem;
+    border-radius:10px;
+}
+.cards1,.cards5,.cards9,.cards13{
+    /*margin-top:0;*/
+}
+.hot_look_more{
+    margin-top:0.24rem;
+}
+.hot_more_right{
+    /*padding-top:0.18rem;*/
+    margin-left:7.8rem;
+}
+/*Artists*/
+#artists{
+	width:2.95rem;
+	height:0.78rem;
+	font-size:1.13rem;
+	font-family:SanFranciscoDisplay-Thin;
+	font-weight:100;
+	color:rgba(34,34,34,1);
+	line-height:0.85rem;
+	/*letter-spacing:-0.16rem;*/
+	opacity:0.1;
+	margin-left: 0.33rem;
+	position: absolute;
+}
+/*已加入艺术家模块*/
+#joined_artists{
+    width:8.55rem;
+    height:4.53rem;
+    margin:0 auto;
+}
+.joined_line{
+    margin-bottom:0.20rem;
+}
+/*卡片*/
+
+.joined_card1,.joined_card2{
+    width:3.35rem;
+    height:3.08rem;
+    margin-right:0.21rem;
+    border:1px solid rgba(250,250,250,1) !important;
+}
+.joined_card3{
+    width:1.6rem;
+    height:3.08rem;
+    margin-left:-0.26rem;
+    border:1px solid rgba(250,250,250,1) !important;
+}
+.border .pic0{
+	width:1.97rem;
+	height:2.56rem;
+	border-radius:0.04rem;
+	z-index: 1;
+	position: absolute;
+}
+.border .pic1{
+	width: 3.08rem;
+	height: 1.37rem;
+	border-radius: 0.04rem;
+}
+.border .pic2{
+	width:1.46rem;
+	height:1.53rem;
+	border-radius:0.04rem;
+	margin-top: 0.18rem;
+}
+.border .pic3{
+	width:1.46rem;
+	height:1.53rem;
+	border-radius:0.04rem;
+	margin-top: 0.18rem;
+	margin-left: 0.17rem;
+}
+.border .pic4{
+	width: 1.68rem;
+	height: 1.37rem;
+	border-radius:0.04rem;
+}
+.border .pic5{
+	width: 1.68rem;
+	height: 1.53rem;
+	border-radius:0.04rem;
+	margin-top: 0.18rem;
+}
+#back_green{
+	width:1.97rem;
+	height:2.56rem;
+	background:rgba(36,199,139,1);
+	opacity:0.3;
+	border-radius:0.04rem;
+	margin-left: 0.1rem;
+	margin-top: 0.1rem;
+	z-index: 0;
+	position: absolute;
+}
+#back_white{
+	width:3.4rem;
+	height:2.71rem;
+	background:rgba(255,255,255,1);
+	border-radius:0.04rem;
+	border-bottom:0.02rem solid rgba(36,199,139,1);
+	margin-top: 0.37rem;
+}
+#back_white p:nth-of-type(1){
+	width:0.4rem;
+	font-size:0.13rem;
+	font-family:PingFang-SC-Regular;
+	font-weight:400;
+	color:rgba(34,34,34,1);
+	margin-left: 2.3rem;
+	margin-top: 0.46rem;
+	position: absolute;
+}
+#back_white p:nth-of-type(2){
+	width:0.9rem;
+	font-size:0.1rem;
+	font-family:PingFang-SC-Regular;
+	font-weight:400;
+	color:rgba(102,102,102,1);
+	margin-left: 2.3rem;
+	margin-top: 0.69rem;
+	position: absolute;
+}
+/*遮罩层*/
+.shadow1{
+    width:3.08rem;
+    height:0.26rem;
+    background:black;
+    opacity:0.5;
+    z-index:10;
+	margin-top: -0.26rem;
+	position: absolute;
+	border-radius: 0rem 0rem 0.04rem 0.04rem;
+}
+.shadow2{
+    width:1.46rem;
+    height:0.26rem;
+    background:black;
+    opacity:0.5;
+    z-index:10;
+	margin-top: -0.26rem;
+	position: absolute;
+	border-radius: 0rem 0rem 0.04rem 0.04rem;
+}
+.shadow3{
+    width:1.46rem;
+    height:0.26rem;
+    background:black;
+    opacity:0.5;
+    z-index:10;
+	margin-left: 1.66rem;
+	margin-top: -0.26rem;
+	position: absolute;
+	border-radius: 0rem 0rem 0.04rem 0.04rem;
+}
+.shadow4,.shadow5{
+    width:1.68rem;
+    height:0.26rem;
+    background:black;
+    opacity:0.5;
+    z-index:10;
+	margin-top: -0.26rem;
+	position: absolute;
+	border-radius: 0rem 0rem 0.04rem 0.04rem;
+}
+.text{
+    font-size:0.11rem;
+    color:rgba(255,255,255,1);
+	font-family:PingFang-SC-Regular;
+	font-weight:400;
+	margin-left: 0.11rem;
+	margin-top: 0.05rem;
+	position: absolute;
+}
+
+/*探索条*/
+#search_bar{
+    width:13.7rem;
+    height:2.16rem;
+    background:#444444;
+    margin-top:0.52rem;
+}
+.search_text1{
+    margin-left:2.6rem;
+    padding-top:0.37rem;
+    font-size:0.31rem;
+    font-family:PingFang-SC-Regular;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+}
+.search_btn{
+    margin-left:2.6rem;
+    margin-top:0.24rem;
+}
+.search_btn li{
+    float:left;
+}
+.search_reg_btn{
+    width:1.71rem;
+    height:0.37rem;
+    line-height:0.37rem;
+    text-align:center;
+    border:1px solid #24C78B;
+    font-size:0.16rem;
+	color:rgba(255,255,255,1);
+}
+.search_reg_btn a:visited{
+	color:rgba(255,255,255,1);
+}
+.search_reg_btn a:hover{
+	color: #24C78B;
+}
+.search_login_btn{
+	width:1.71rem;
+    height:0.37rem;
+    line-height:0.37rem;
+    text-align:center;
+    font-size:0.16rem;
+    background:white;
+    margin-left:0.34rem;
+}
+.search_go{
+    margin-left:9.14rem;
+    font-size:1rem;
+	font-weight:100;
+    margin-top:-0.73rem;
+	z-index: 2;
+	position: absolute;
+}
+.search_go a:visited{
+	color: white;
+}
+.search_go a:hover{
+	color: #24C78B;
+}
+.search_text2{
+    margin-left:2.6rem;
+	margin-top: 0.4rem;
+    font-size:0.1rem;
+    color:rgba(255,255,255,1);
+}
+.trapezoid{
+	height:2.16rem;
+	width:3.81rem;
+	opacity:0.3;
+	border-bottom:2.16rem solid rgba(36,199,139,1);
+	border-left:1.24rem solid transparent;
+	margin-left:9.89rem;
+	margin-top: -1.99rem;
+}
+/*排行榜卡片*/
+#ranking_list{
+    width:8.55rem;
+    height:6.98rem;
+    margin:0 auto;
+}
+.ranking_cards{
+    position:relative;
+}
+.ranking_card1,.ranking_card2,.ranking_card3{
+    margin:0;
+    border-radius:0.04rem;
+    /*opacity:0.8;*/
+}
+.ranking_card1{
+    position:absolute;
+    top:0.23rem;
+    left:0;
+    width:2.71rem;
+    height:4.92rem;
+    background:#FDAC1F;
+    z-index:1;
+}
+.ranking_card_text1{
+    margin-left:1.13rem;
+    margin-top:0.39rem;
+    font-size:0.16rem;
+    font-family:PingFang-SC-Regular;
+    font-weight:400;
+    color:rgba(255,255,255,1)
+}
+.ranking_card_text2{
+    margin-left:1.02rem;
+    margin-top:0.09rem;
+    font-size:0.16rem;
+    font-family:PingFang-SC-Regular;
+    font-weight:400;
+    color:rgba(255,255,255,1)
+}
+.ranking_card_line{
+    width:0.46rem;
+    border:1px solid rgba(255,255,255,1);
+    margin-top:0.17rem;
+    border-radius:1px;
+    margin-bottom:0.5rem;
+}
+.ranking_card_ul1{
+    margin-left:0.23rem;
+}
+.ranking_card_ul1>li,.ranking_card_ul2>li{
+    margin-bottom:0.05rem;
+    font-size:0.11rem;
+    color:white;
+}
+/*查看更多*/
+.hot_more_rank{
+	width: 0.7rem;
+    padding-top:5.2rem;
+    margin-left:7.8rem;
+	position: absolute;
+}
+/*a 标签颜色属性*/
+.ranking_card_ul1>li a:link,.ranking_card_ul2>li a:link{
+    color:white;
+}
+.ranking_card_ul1>li a:active,.ranking_card_ul2>li a:active{
+    color:white;
+}
+.ranking_card_ul1>li a:hover,.ranking_card_ul2>li a:hover{
+    color:lightblue;
+}
+.ranking_card_ul1>li a:visited,.ranking_card_ul2>li a:visited{
+    color:white;
+}
+.ranking_card2{
+    position:absolute;
+    top:0;
+    left:2.64rem;
+    width:3.28rem;
+    height:5.15rem;
+    background:rgba(36,199,139,1);
+    z-index:10;
+}
+.ranking_card_ul2{
+    margin-left:0.46rem;
+}
+.ranking_card3{
+    position:absolute;
+    top:0.23rem;
+    left:5.85rem;
+    width:2.71rem;
+    height:4.92rem;
+    background:rgba(49,176,208,1);
+    z-index:1;
+
+}
+#series_albums{
+    width:8.55rem;
+    height:3.64rem;
+    margin:0 auto;
+}

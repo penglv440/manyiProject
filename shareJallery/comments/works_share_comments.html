@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta content="漫艺是一家以文化艺术品为交易的公司" name="description">
+    <meta content="漫艺，文化，书画品，平台，艺术家" name="keywords">
+    <link rel="icon" type="image/x-icon" href="image/logo.ico">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/comment_text.css">
+    <link rel="stylesheet" href="css/comment.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <script src="js/layout.js"></script>
+    <script src="js/jQuery.js"></script>
+    <script src="js/demo.js"></script>
+    <script src="js/comment.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	
+
+    <title>作品欣赏馆</title>
+    <style>
+        .list-item{
+            line-height:0.25rem;
+            font-size:0.10rem;
+			color:rgba(102,102,102,1);
+        }
+        .card_item{
+            width:0.77rem;
+            height:0.77rem;
+			margin-top:0;
+			border-radius: 0.04rem;
+            /*border: 1px solid #24C78B;*/
+        }
+        .card_item:hover{
+            box-shadow: 0.02rem 0.02rem 0.02rem lightgray;
+            /*opacity:0.8;*/
+        }
+        .page-link{
+            color: #24C78B;
+        }
+        .page-item.active .page-link{
+            background:#24C78B;
+        }
+        .page-link:hover{
+            color:#24C78B;
+        }
+        img{
+            vertical-align:middle
+        }
+        .share_and_comment span{
+            font-size:0.1rem;
+        }
+         @media screen and (min-width:14rem){
+		 html,body{
+		    width:100%;
+			
+			background:rgba(250,250,250,1);
+		 }
+		 
+		 }
+        /*.card{*/
+            /*margin-left:0;*/
+            /*height:77px;*/
+        /*}*/
+    </style>
+</head>
+<body style="width:13.7rem;">
+    <!--头部信息-->
+    <header>  <!--style="height:0.57rem;"-->
+    <div id="header">  <!--style="background:rgba(255,255,255,1);"-->
+        <a href="#"><img  class="logo" src="image/logo.ico" alt="logo"></a>
+        <span class="set_text"><a href="#" style="color:rgba(102,102,102,1);">设置</a></span>
+        <img class="head_sculpture" src="image/picture.jpg" alt=""/>
+    </div>
+    <hr style="width:100%;color:lightgray;margin-top:0.01rem;height:0.01rem;">
+    </header>
+    <!--创作者介绍部分-->
+    <section style="margin-top:-0.8rem;">
+    <div id="creator_introduction">
+        <!--左边作品图片-->
+        <div class="artistic_photo">
+            <img  class="artistic_painting" src="image/painting.jpg" alt="painting" >
+        </div>
+        <!--右边具体介绍-->
+        <div class="artist_info">
+            <div class="intro_title">
+               <span class="intro_title_text">油画艺术的创作者</span>
+			</div>
+            <!--姓名-->
+            <div class="author_infor">
+                <img class="artist_head_picture" src="image/picture.jpg" alt=""/>
+                <div class="artist_name_text">
+                    <span class="author_name">孙一鸣</span><br>
+                    <span>专辑：太白山日常写生集</span>
+                </div>
+            </div>
+            <!--流派-->
+            <div class="painting_details">
+			    <p class="style painting_details_text">
+                    <span>流派：印象派</span><br>
+                    <span>发表者：艺术画廊 </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发表时间：<span>2018-09-29</span><br>
+                    <img src="image/icon_views.png" alt="views">&nbsp;&nbsp;浏览量：<span>1234</span>
+                    <img src="image/zp_lib_sc.png" alt="collect" style="margin-left:0.29rem">&nbsp;&nbsp;收藏量：<span>1344</span>
+                </p>
+	        </div>
+	        <!--按钮-->
+	        <div style="margin-top:0.25rem">
+                <button  class="btn_setting btn_setting_special1" >
+                    <img  class="btn_img" src="image/icon_xinshang.png" alt="xinshang">
+                    <span class="btn_text btn_text_special1">&nbsp;欣赏</span>
+                </button>
+                <button class="btn_setting" >
+                    <img  class="btn_img" src="image/icon_collect.png" alt="collect">
+                    <span class="btn_text">&nbsp;收藏</span>
+                </button>
+                <button class="btn_setting" >
+                    <img  class="btn_img" src="image/fenxiang.png" alt="share" >
+					<span class="btn_text">&nbsp;分享(10)</span>
+                </button>
+                <button class="btn_setting btn_setting_special2" >
+                    <img  class="btn_img" src="image/icon_comments.png" alt="comments" >
+					<span sclass="btn_text">&nbsp;评价(100)</span>
+                </button>
+                <button class="btn_setting" >
+                    <img  class="btn_img" src="image/gengduo.png" alt="more" >
+					<span class="btn_text">&nbsp;更多</span>
+                </button>
+            </div>     
+		</div>
+	</div> 
+    </section >      
+    <!--评论区-->
+    <article style="margin-top:0.23rem;">
+    <div id="comments">
+        <div class="container-fluid">
+             <div class="row">
+                 <!--评论区左边部分-->
+                 <div class="comment_left">
+                   <div class="comment_left_content">
+                    <!--作品详情-->
+                    <div class="artist_details" >
+                            <span class="artist_details_title">作品详情:</span><br><img src="image/s_biaoti_gang.png" alt="baoti_gang" style="height:0.02rem;">        
+                    </div >
+                    <!--介绍部分-->
+                    <div class="artist_details_text">
+                        <ul class="list-group">
+                            <li class="list-item">创作年份：2018年</li>
+                            <li class="list-item">原作尺寸：1090 * 1080</li>
+                            <li class="list-item">类型：某某某</li>
+                            <li class="list-item">材质：某某某</li>
+                            <li class="list-item">主题：某某某某某某</li>
+                            <li class="list-item">场景：我在人民广场看别人吃炸鸡</li>
+                            <li class="list-item">心情：一般般好好的时候看</li>
+                            <li class="list-item">主色调：淡雅</li>
+                            <li class="list-item" style="line-height:40px;padding-top:10px;padding-bottom:0px">标签：某某某某某某</li>
+                            <li class="list-item">创作意图：源于灵感，就是灵感</li>
+                            <li class="list-item">创作心境：评论了你的作品评论了你的作品评论了你的作品评论了你的作品评论了你的作品评论了你的作品评论了你的作品评论了你的作品评论了你的作品评论了你的作品</li>
+                        </ul>
+                    </div>
+                    <!--我的艺见---评论区-->
+                    <ul class="my_comment">
+                        <li>
+                        <span class="my_comment_title">&nbsp;&nbsp;&nbsp;我的艺见</span>
+                        <hr style="width:100%;color:lightgray;margin-top:0.2rem;height:0.01rem;">
+                        <!--评论框-->
+                        <div contenteditable="true" id="message" name="Comment" class="my_comment_text" style="margin-top:-0.9rem;"></div>
+						<!--	<text name="comment" id="message" class="my_comment_text">-->
+                        <!--表情和提交按钮-->
+                        <div class="text-right submit_text">
+                            <span><img src="image/icon_smile.png" alt=""></span>
+                            <button type="button" class="btn_ideas submit_text_btn" placeholder="发表评论" id="messageBtn">发表意见</button>
+                        </div>
+						</li>
+                        <script>
+			 			window.onload = function () {
+			 				let message = document.getElementById('message')
+			 				let messageBtn = document.getElementById('messageBtn')
+			 				let list = document.getElementsByClassName('list')[0]
+			 				
+			 				messageBtn.onclick = function () {
+			 					if(message.innerText===""){
+			 						alert('请输入内容');	
+			 					}else{
+			 					list.innerHTML += `
+			 					<li class="box clearfix" >
+                                <!--<a class="close" href="javascript:;">×</a>-->
+                                <div>
+                                <img class="head head_img rounded-circle"  alt=""/>
+                                </div>
+                                <div class="content">
+                                    <div class="main">
+                                        <div class="txt">
+                                           <div>
+                                              <span class="user">${'用户名'}</span>
+                                              <span class="time float-right" style="color:rgba(102,102,102,1);">${time()}</span>
+                                           </div>
+                                           <p class="text-dark content_text">
+                                              <span style="color:rgba(102,102,102,1);">${message.innerText}</span>
+                                           </p>
+                                        </div>
+                                    </div>                  
+                                    <!--分享、评论和回复功能-->
+                                    <div class="share_and_comment">
+                                        <a href=""><img src="image/icon_comments.png" alt="comments"></a>
+                                        <span style="font-size:0.1rem">(0)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <a href=""><img src="image/icon_givealike.png" alt="xinshan"></a>
+                                        <span>(0)</span>
+                                        <a href="#" class="comment_btn"><span class="float-right" style="color:rgba(102,102,102,1);">回复</span></a>
+                                    </div>
+                                </div>
+                                </li>    
+			 					`
+			 					message.innerText = ""
+
+			 					let listNum = document.querySelectorAll('.list li')
+			 					let a
+			 					
+			 					//新留言在非置顶留言之上
+			 					a = listNum[listNum.length-1].innerHTML;
+			 					for(let i = listNum.length; i > 1; i--){		
+			 				        listNum[i-1].innerHTML = listNum[i-2].innerHTML;	
+			 					}
+			 					listNum[1].innerHTML = a;
+			 					}
+			 				  }
+
+			 			  }
+			 		    </script>
+                      <li>
+                        <!--精彩意见-->
+                        <div style="margin-top:0.15rem;">
+                           <span class="better_comment">&nbsp;&nbsp;&nbsp;精彩艺见</span>
+						</div>
+                        <!--********************************************************************-->
+
+                        <ol class="list" >       
+                            <li class="box clearfix" >
+                              <!--<a class="close" href="javascript:;">×</a>-->
+                                <div>
+                                <img class="head rounded-circle" src="image/picture.jpg" alt=""/>
+                                </div>
+                                <div class="content">
+                                    <div class="main">
+                                        <div class="txt">
+                                            <span class="user">妖孽只在夜里哭</span>&nbsp;&nbsp;
+                                            <a href="" >  
+												<button class="set_top">置顶</button>
+                                            </a>
+                                            <span class="time float-right" style="color:rgba(102,102,102,1);"></span>
+                                            <p class="text-dark content_text">
+                                            <span style="color:rgba(102,102,102,1);">评论了你 的作品评论了你的作品评论了你的作品评论了你的作品评论了你的作品评论了你的作品评论了你的作品评论了你的作品评论了你的作品。</span>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <!--分享、评论和回复功能-->
+                                    <div class="share_and_comment">
+                                        <a href=""><img src="image/icon_comments.png" alt="comments"></a>
+                                        <span style="font-size:0.1rem">(10)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <a href=""><img src="image/icon_givealike.png" alt="xinshan"></a>
+                                        <span>(10)</span>
+                                        <a href="#" class="comment_btn"><span class="float-right" style="color:#24C788">回复</span></a>
+                                    </div>
+
+                                    <!--用户回复功能-->
+                                    <div class="text-box">
+                                        <textarea class="comment" autocomplete="off" style="margin-top:0.15rem;display:none">评论…</textarea>
+                                        <button class="btn ">回 复</button>
+                                        <span class="word"><span class="length">0</span>/140</span>
+                                        <!--其他用户回复内容-->
+                                        <div class="user_com" style="margin-top:0.30rem;display:none;line-height:0.60rem;">
+                                            <div>
+                                                <img class="user_head head rounded-circle" src="images/1.jpg" alt="">
+                                                <span class="user_name">HELLO</span>
+
+                                                <!--删除-->
+                                                <a class="remove_comment" href=""><span class="float-right">删除</span></a>
+                                                <!--时间-->
+                                                <span class="comment_time float-right" ></span>
+                                            </div>
+                                            <div style="line-height:25rem;">
+                                                <span class="user_comments" style="padding-right:2.85rem;"></span>
+                                                <img src="image/icon_comments.png" alt="comments">
+                                                <span style="font-size:0.1rem">(10)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                                                <a href=""><img src="image/icon_givealike.png" alt="xinshan"></a>
+                                                <span>(10)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--用户回复内容-->
+                                    <div class="box clearfix user_replay" >
+                                        <!--<a class="close" href="javascript:;">×</a>-->
+                                        <div>
+                                            <img class="head rounded-circle" src="image/picture.jpg" alt=""/>
+                                        </div>                                    
+                                        <div class="main" style="width:3.40rem;">
+                                            <div class="txt" style="margin-top:0.2rem;margin-bottom:0.35rem;width:3.40rem;">
+                                                <span class="user">妖孽只在夜里哭</span>&nbsp;&nbsp;  
+                                            </div>
+								        </div>
+                                        <!--分享、评论和回复功能-->
+                                        <div style="margin-top:0.4rem;color:rgba(102,102,102,1);">
+									        <p>评论了你的作品评论了你的作品评论了你的作品</p>
+                                        </div>
+                                        <div class="share_and_comment" style="margin-top:-0.8rem;float:right;">
+                                            <img src="image/icon_comments.png" alt="comments">
+                                            <span style="font-size:0.1rem">(10)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <a href=""><img src="image/icon_givealike.png" alt="xinshan"></a>
+									        <span>(10)</span>
+                                        </div>
+                                        <!--用户回复功能-->
+
+                                    </div>
+                                </div>
+                                <!--<br>-->
+                            </li>
+                            <li class="box clearfix" >
+                              <!--<a class="close" href="javascript:;">×</a>-->
+                                <div>
+                                <img class="head rounded-circle" src="image/picture.jpg" alt=""/>
+                                </div>
+                                <div class="content">
+                                    <div class="main">
+                                        <div class="txt">
+                                            <span class="user">妖孽只在夜里哭</span>&nbsp;&nbsp;                                          
+                                            <span class="time float-right" style="color:rgba(102,102,102,1);"></span>
+                                            <p class="text-dark content_text">
+                                            <span style="color:rgba(102,102,102,1);">评论了你 的作品评论了你的作品评论了你的作品评论了你的作品评论了你的作品评论了你的作品评论了你的作品评论了你的作品评论了你的作品。</span>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <!--分享、评论和回复功能-->
+                                    <div class="share_and_comment">
+                                        <a href=""><img src="image/icon_comments.png" alt="comments"></a>
+                                        <span style="font-size:0.1rem">(10)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <a href=""><img src="image/icon_givealike.png" alt="xinshan"></a>
+                                        <span>(10)</span>
+                                        <a href="#" class="comment_btn"><span class="float-right" style="color:rgba(102,102,102,1);">回复</span></a>
+                                    </div>
+                                    
+                                    <!--用户回复功能-->
+                                    <div class="text-box">
+                                        <textarea class="comment" autocomplete="off" style="margin-top:0.15rem;display:none">评论…</textarea>
+                                        <button class="btn ">回 复</button>
+                                        <span class="word"><span class="length">0</span>/140</span>
+                                        <!--其他用户回复内容-->
+                                        <div class="user_com" style="margin-top:0.30rem;display:none;line-height:0.60rem;">
+                                            <div>
+                                                <img class="user_head head rounded-circle" src="images/1.jpg" alt="">
+                                                <span class="user_name">HELLO</span>
+
+                                                <!--删除-->
+                                                <a class="remove_comment" href=""><span class="float-right">删除</span></a>
+                                                <!--时间-->
+                                                <span class="comment_time float-right "></span>
+                                            </div>
+                                            <div style="line-height:25rem;">
+                                                <span class="user_comments" style="padding-right:2.85rem;"></span>
+                                                <img src="image/icon_comments.png" alt="comments">
+                                                <span style="font-size:0.1rem">(10)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                                                <a href=""><img src="image/icon_givealike.png" alt="xinshan"></a>
+                                                <span>(10)</span>
+                                            </div>
+                                        </div>
+									</div>                                                                     
+                                </div>
+                                <!--<br>-->
+                            </li>
+                            <li class="box clearfix" >
+                              <!--<a class="close" href="javascript:;">×</a>-->
+                                <div>
+                                <img class="head rounded-circle" src="image/picture.jpg" alt=""/>
+                                </div>
+                                <div class="content">
+                                    <div class="main">
+                                        <div class="txt">
+                                            <span class="user">妖孽只在夜里哭</span>&nbsp;&nbsp;                                           
+                                            <span class="time float-right" style="color:rgba(102,102,102,1);"></span>
+                                            <p class="text-dark content_text">
+                                            <span style="color:rgba(102,102,102,1);">评论了你 的作品评论了你的作品评论了你的作品评论了你的作品评论了你的作品评论了你的作品评论了你的作品评论了你的作品评论了你的作品。</span>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <!--分享、评论和回复功能-->
+                                    <div class="share_and_comment">
+                                        <a href=""><img src="image/icon_comments.png" alt="comments"></a>
+                                        <span style="font-size:0.1rem">(10)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <a href=""><img src="image/icon_givealike.png" alt="xinshan"></a>
+                                        <span>(10)</span>
+                                        <a href="#" class="comment_btn"><span class="float-right" style="color:rgba(102,102,102,1);">回复</span></a>
+                                    </div>
+                                    
+                                    <!--用户回复功能-->
+                                    <div class="text-box">
+                                        <textarea class="comment" autocomplete="off" style="margin-top:0.15rem;display:none">评论…</textarea>
+                                        <button class="btn ">回 复</button>
+                                        <span class="word"><span class="length">0</span>/140</span>
+                                        <!--其他用户回复内容-->
+                                        <div class="user_com" style="margin-top:0.30rem;display:none;line-height:0.60rem;">
+                                            <div>
+                                                <img class="user_head head rounded-circle" src="images/1.jpg" alt="">
+                                                <span class="user_name">HELLO</span>
+
+                                                <!--删除-->
+                                                <a class="remove_comment" href=""><span class="float-right">删除</span></a>
+                                                <!--时间-->
+                                                <span class="comment_time float-right " style="color:rgba(102,102,102,1);"></span>
+                                            </div>
+                                            <div style="line-height:25rem;">
+                                                <span class="user_comments" style="padding-right:2.85rem;"></span>
+                                                <img src="image/icon_comments.png" alt="comments">
+                                                <span style="font-size:0.1rem">(10)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                                                <a href=""><img src="image/icon_givealike.png" alt="xinshan"></a>
+                                                <span>(10)</span>
+                                            </div>
+                                        </div>
+									</div>                                                                     
+                                </div>
+                                <!--<br>-->
+                            </li>
+						  
+                        </ol>
+                        <!--分页部分-->
+                        <ul class="my_pagination" id="pages" >
+                            <li class="page_previous " ><a href="" class="page_style">&lt;</a></li>
+                            <li class="page_active" ><a href="" class="page_style">1</a></li>
+                            <li class="page_active_2"><a href="" class="page_style">2</a></li>
+                            <li class="page_active_2"><a href="" class="page_style">3</a></li>
+                            <li class="page_active_2"><a href="" class="page_style">4</a></li>
+                            <li class="page_active_2"><a href="" class="page_style">5</a></li>
+                            <li class="page_active_2"><a href="" class="page_style">6</a></li>
+                            <li class="page_active_2"><a href="" class="page_style">7</a></li>
+                            <li class="page_active_2"><a href="" class="page_style">8</a></li>
+                            <li class="page_active_2"><a href="" class="page_style">9</a></li>
+                            <li class="page_active_2"><a href="" class="page_style">10</a></li>
+                            <li class="page_active_2"><a href="" class="page_style">&gt;</a></li>
+					    </ul>
+					  </li>
+				    </ul>
+				   </div>
+				 </div>
+			     <!--评论区右边部分-->
+		         <div class="comment_right">
+                    <div class="card_style">
+                           <span  class="similar_works">相似作品集</span>  
+                           <!--侧边栏卡片部分-->
+                           <div class="d-inline-flex flex-row justify-content-between card_details">
+                               <div class="card_item">
+                                   <img  class="card_img_details" src="image/picture.jpg" alt="">
+                                   <span class="card_text">付凡</span>
+                                   <div class="scan">
+                                       <img src="image/icon_views.png" alt="icon_views" style="width:0.09rem;height:0.04rem;">&nbsp;&nbsp;
+                                       <span class="card_text_details">1365</span>
+                                   </div>
+                               </div>
+                               <div class="card_item" style="margin-right:0rem;">
+                                   <img  class="card_img_details" src="image/picture.jpg" alt="">
+                                   <span class="card_text">付凡</span>
+                                   <div class="scan">
+                                       <img src="image/icon_views.png" alt="icon_views" style="width:0.09rem;height:0.04rem;">&nbsp;&nbsp;
+                                       <span class="card_text_details">1365</span>
+                                   </div>
+                               </div>
+                            </div>
+                           <!--侧边栏卡片部分-->
+                           <div class="d-inline-flex flex-row justify-content-between card_details">
+                               <div class="card_item">
+                                   <img  class="card_img_details" src="image/picture.jpg" alt="">
+                                   <span class="card_text">付凡</span>
+                                   <div class="scan">
+                                       <img src="image/icon_views.png" alt="icon_views" style="width:0.09rem;height:0.04rem;">&nbsp;&nbsp;
+                                       <span class="card_text_details">1365</span>
+                                   </div>
+                               </div>
+                               <div class="card_item" style="margin-right:0rem;">
+                                   <img  class="card_img_details" src="image/picture.jpg" alt="">
+                                   <span class="card_text">付凡</span>
+                                   <div class="scan">
+                                       <img src="image/icon_views.png" alt="icon_views" style="width:0.09rem;height:0.04rem;">&nbsp;&nbsp;
+                                       <span class="card_text_details">1365</span>
+                                   </div>
+                               </div>
+                            </div>
+                           <!--侧边栏卡片部分-->
+                           <div class="d-inline-flex flex-row justify-content-between card_details">
+                               <div class="card_item">
+                                   <img  class="card_img_details" src="image/picture.jpg" alt="">
+                                   <span class="card_text">付凡</span>
+                                   <div class="scan">
+                                       <img src="image/icon_views.png" alt="icon_views" style="width:0.09rem;height:0.04rem;">&nbsp;&nbsp;
+                                       <span class="card_text_details">1365</span>
+                                   </div>
+                               </div>
+                               <div class="card_item" style="margin-right:0rem;">
+                                   <img  class="card_img_details" src="image/picture.jpg" alt="">
+                                   <span class="card_text">付凡</span>
+                                   <div class="scan">
+                                       <img src="image/icon_views.png" alt="icon_views" style="width:0.09rem;height:0.04rem;">&nbsp;&nbsp;
+                                       <span class="card_text_details">1365</span>
+                                   </div>
+                               </div>
+                            </div>
+                    </div>
+				 </div>
+             </div>
+		 </div> 
+    </div>
+    </article>
+    <!-- 页脚 -->
+    <footer style="margin-top:0.5rem;">
+        <div id="foot">
+            <a href=""><img class="foot_logo" src="image/s_dibu_logo.png" alt="logo" style="margin-top:-0.1rem;"></a>
+            <ul class="foot_ul foot_style" style="line-height:0.2rem;height:1rem;margin-bottom:0rem;">
+                <li><a href="">关于漫艺</a></li>
+                <li><a href="">用户服务协议</a></li>
+                <li><a href="">隐私政策</a></li>
+                <li><a href="">常见问题</a></li>
+                <li><a href="">联系客服</a></li><br>
+                <li class="copyright"><a href="">漫艺公司版权所有&nbsp;&nbsp;漫艺网络经营文化许可证</a></li><br>
+                <li class="copyright"><a href="">Copyright &nbsp;@ 2018 manArt.All Rights Reserved </a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

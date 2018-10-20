@@ -1,0 +1,239 @@
+article{
+    width:100%;
+    margin:0px auto;
+    background-color: #FAFAFA;
+}
+#navigation{
+    float: left;
+    float: top;
+    margin-left: 256px;
+    margin-top: 23.5px;
+    width: 141px;
+    height: 14px;
+}
+#navigation span{
+    font-size:14px;
+    font-style:"PingFang-SC-Medium";
+    font-weight:500;
+    color:rgba(102,102,102,1);
+}
+.line{
+	clear:both;
+	width: 1370px;
+	height: 1px;
+	margin-top:4%;
+}
+img.painting{
+    float: left;
+    margin-left: 256px;
+    margin-top: 36px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#brief{
+    float: left;
+    float: top;
+    text-align: left;
+    margin-left: 29px;
+    margin-top: 44px;
+    width: 22.5%;
+}
+#brief span{
+	line-height:10px;
+	font-size: 11px;
+	font-style: "PingFang-SC-Medium";
+	color: #666666;	
+}
+#brief span:nth-of-type(1){
+    font-weight:500;
+    color: #222222;
+}
+#brief span:nth-of-type(4){
+	margin-left: 38px;
+}
+#brief span:nth-of-type(6){
+    margin-left: 25.6px;
+}
+#brief span:nth-of-type(8),#brief span:nth-of-type(9){
+    margin-left: 22px;
+}
+#brief img.nan{
+	width:16px;
+    height:16px;
+	margin-left: 3%;
+}
+#brief img.fensi{
+    width: 11.5px;
+    height: 10px;
+    margin-right: 5.7px;
+}
+#brief img.guanzhu{
+    width: 11.5px;
+    height: 10px;
+    margin-right: 5.7px;
+}
+#brief .button{
+	margin-top: 17.8px;
+}
+#brief .button_1{
+	width: 65px;
+	height: 25.6px;
+	border-radius: 3px;
+	color: #FFFFFF;
+	background-color: #24C78B;
+	border: 1px solid #24C78B;
+	font-size: 10px;
+	float: top;
+}
+.button_2{
+    font-size:10px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+	width: 65px;
+	height: 25.6px;
+	border-radius: 3px;
+	background-color: #F5F5F5;
+	color: #666666;
+	border: 1px solid #E7E7E7;
+	position:absolute;
+}
+#brief .button_3{
+	width: 65px;
+	height: 25.6px;
+	margin-left: 74px;
+	border-radius: 3px;
+	color: #666666;
+	background-color: #FFFFFF;
+	border: 1px solid #E7E7E7;
+	font-size: 10px;
+	float: top;
+	
+}
+#brief .button_4{
+	width: 65px;
+	height: 25.6px;
+	margin-left: 2px;
+	border-radius: 3px;
+	color: #666666;
+	background-color: #FFFFFF;
+	border: 1px solid #E7E7E7;
+	font-size: 10px;
+	float: top;
+}
+#brief .button img{
+	margin-top: 4px;
+	margin-right: 4px;
+}
+#brief .button img.b01,#brief .button img.b03,#brief .button img.b04{
+	width: 10px;
+	height: 11px;
+}
+
+img.abc{
+    margin-top: 22.8px;
+	margin-right: 256px;
+    width: 335px;
+    height: 177px;
+    background: #000000;
+    border-radius: 6px;
+}
+#myTab{
+    margin-left: 256px;
+	text-align:center;
+}
+#myTab li:active{
+	color:#24C78B;
+}
+#myTab li{
+	float:left;
+	white-space:nowrap;
+	width:90px;
+	height: 36px;
+	font-family:PingFang-SC-Medium;
+}
+#myTab li a{
+	position: relative;
+	display: inline-block;
+    font-weight:500;
+	font-size:12.8px;
+	height:36px;
+	width: 90px;
+	line-height:36px;
+	text-decoration:none;
+}
+#myTab .active{
+	border-bottom:2px solid #24C78B;
+	font-weight:700;
+	color: #24C78B;
+}
+#myTab .line02{
+	width:825.1px;
+    height:2px;
+	margin-right: 290px;
+    background:#E7E7E7;
+    border-radius:1px;
+	float: right;
+}
+.tab-content > .tab-pane {
+ display: none;
+}
+.tab-content > .active {
+ display: block;
+}
+.paginating{
+    float: left;
+    margin-left: 443px;
+	margin-top: 25px;
+}
+.paginating .page-link:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.paginating .page-link:hover {
+    z-index: 2;
+    text-decoration: none;
+    border-color: #24C78B;
+}
+.paginating .page-item.active .page-link {
+    z-index: 1;
+    color: #FFFFFF;
+    background-color: #24C78B;
+    border-color: #24C78B;
+}
+.paginating .page-link {
+    display: block;
+    line-height:28px;
+    text-align: center;
+    color: #999999;
+    background-color: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    margin-left: 6px;
+    border-radius: 4px;
+    width: 29px;
+    height: 29px;
+}
+.paginating .page-item:nth-of-type(1) .page-link:hover,.paginating .page-item:nth-of-type(12) .page-link:hover{
+	background-color: #E7E7E7;
+	border:1px solid #E7E7E7;
+}
+.paginating a {
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+user agent stylesheet
+.paginating a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+user agent stylesheet
+.paginating li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.paginating .pagination {
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+}

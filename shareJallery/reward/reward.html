@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta content="漫艺是一家以文化艺术品为交易的公司" name="description">
+    <meta content="漫艺，文化，书画品，平台，艺术家，艺术作品欣赏" name="keywords">
+    <title>作品浏览</title>
+
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/buttonstyle.css">
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  	<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"></link> 
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    
+    <link rel="stylesheet" href="css/timeliner.css"> 
+    <script type="text/javascript" src='js/jquery-1.6.2.min.js'></script>
+    <script type="text/javascript" src='js/jquery.timeliner.min.js'></script>
+    
+    <script type="text/javascript">
+    $(document).ready(function(){
+	$('#example1').timeliner();
+
+    });
+     </script>
+    
+    
+    
+</head>
+<body style="background-color:#fff;">
+
+
+<!-- header -->
+    <header>
+        <div id="top">
+            <ul>
+             <li><a href="#"><img src="image/s_logo.png" alt="首页"></a></li>
+             <li><a href="#"><img src="image/head.jpeg" alt="头像"></a></li>
+             <button  class="btn btn-link" data-toggle="modal" data-target="#setupModal" aria-hidden="true">
+                                     设置
+             </button>
+             <!-- 设置有个弹框 -->
+         </ul>
+       </div>
+    </header>
+	<ul id="example1" class="timeliner">
+		<li title="第一屏" ><img src="111.jpg" class="imgshow"></li>
+		<li title="第二屏"><img src="222.png" class="imgshow"></li>
+		<li title="第三屏"><img src="333.jpg" class="imgshow"></li>
+		<li title="第一屏" ><img src="111.jpg" class="imgshow"></li>
+		<li title="第二屏"><img src="222.png" class="imgshow"></li>
+		<li title="第三屏"><img src="333.jpg" class="imgshow"></li>
+	</ul>
+
+   
+    
+    
+    <div class="buttongroup"  >
+        <button class="button1" data-toggle="modal" data-target="#" aria-hidden="true" >
+	      <img src="image/shoucang.png" class="buttonimg"/>          
+	                 收藏     
+        </button>
+  
+        <button class="button1" data-toggle="modal" data-target="#" aria-hidden="true">
+              <img src="image/fenxiang.png" class="buttonimg"/>
+                          分享
+        </button>
+      
+        <button class="button1" data-toggle="modal" data-target="#" aria-hidden="true">
+         <a href="../comments/works_share_comments.html"> <img src="image/pinjia.png" class="buttonimg"/></a>
+     	   评价    
+        </button>
+        
+        <button  class="button1" data-toggle="modal" data-target="#" aria-hidden="true">
+        <img src="image/zp_xiazai.png" class="buttonimg"/>
+     	    下载  
+        </button>
+        
+        <button  class="button1" data-toggle="modal" data-target="#rewardModal" aria-hidden="true">
+        <img src="image/zp_ds.png" class="buttonimg"/>
+	               打赏    
+        </button>
+        <img src="image/zg-yinyue@3x.png" style="margin-left:40px;width:40px;height:40px;"/>
+    </div>
+<div class="modal fade" id="rewardModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+					&times;
+				</button>
+				<h4 class="modal-title text-center" id="rewardModalLabel">
+					给作者打赏
+				</h4>
+			</div>
+			<div class="modal-body">
+			    <strong>信息确认:</strong> <br>
+			<p id="name">作者:作品 </p> <br>
+			</div>
+		
+			<div class="form-group modal-body">
+				<strong>确认金额:</strong><br>
+                <input type="radio" name="reward" value="1" checked onclick="hiddenzdy()">&nbsp;&nbsp; 1元  &nbsp;&nbsp;&nbsp;
+                <input type="radio" name="reward" value="2" onclick="hiddenzdy()">&nbsp;&nbsp;&nbsp; 2元  &nbsp;&nbsp;
+                <input type="radio" name="reward" value="10" onclick="hiddenzdy()">&nbsp;&nbsp;&nbsp; 10元 &nbsp;&nbsp;
+                <input type="radio" name="reward" onclick="showzdy()"> &nbsp;&nbsp;&nbsp; 自定义金额 &nbsp;&nbsp;
+                <input id="rewardextra" style="visibility:hidden"  type="text" name="reward" >
+			</div>
+			
+			<div class="modal-body">
+			    <strong>支付方式:</strong>
+			    <p>打开支付支付宝扫下面的二维码</p>
+      	
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">
+				       取消
+				</button>
+				<button type="button" class="btn btn-primary" data-dismiss="modal">
+					确定
+				</button>
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal -->
+</div>
+
+<div class="modal fade" id="setupModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+					&times;
+				</button>
+				<h4 class="modal-title text-center" id="rewardModalLabel">
+					设置
+				</h4>
+			</div>
+			<div class="modal-body">
+			    <strong>播放设置</strong> <br>
+			</div>
+		
+			<div class="form-group modal-body">
+				<strong>自动播放停顿时间</strong><br>
+                <input type="radio" name="time" value="1" checked onclick="hiddensz()">&nbsp;&nbsp; 1秒  &nbsp;&nbsp;&nbsp;
+                <input type="radio" name="time" value="2" onclick="hiddensz()">&nbsp;&nbsp;&nbsp; 2秒  &nbsp;&nbsp;
+                <input type="radio" name="time" value="5" onclick="hiddensz()">&nbsp;&nbsp;&nbsp; 5秒 &nbsp;&nbsp;
+                <input type="radio" name="time" onclick="showsz()"> &nbsp;&nbsp;&nbsp; 自定义 &nbsp;&nbsp;
+                <input id="setupextra" style="visibility:hidden"  type="text" name="reward" >
+			</div>
+			
+			<div class="form-group modal-body">
+				<strong>背景音乐</strong><br>
+                <input type="radio" name="music" value="1" checked >&nbsp;&nbsp; 打开自动播放  &nbsp;&nbsp;&nbsp;
+                <input type="radio" name="music" value="2" >&nbsp;&nbsp;&nbsp; 手动播放 &nbsp;&nbsp;
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">
+				       取消
+				</button>
+				<button type="button" class="btn btn-primary" data-dismiss="modal">
+					确定
+				</button>
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal -->
+</div>
+
+
+
+<script>
+function showzdy()
+{
+	document.getElementById("rewardextra").style.visibility="visible";
+}   
+function hiddenzdy()
+{
+	document.getElementById("rewardextra").style.visibility="hidden";
+} 
+
+function showsz()
+{
+	document.getElementById("setupextra").style.visibility="visible";
+}   
+function hiddensz()
+{
+	document.getElementById("setupextra").style.visibility="hidden";
+} 
+
+
+</script>
+</body>
+</html>

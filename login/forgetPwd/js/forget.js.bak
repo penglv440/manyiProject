@@ -1,0 +1,37 @@
+/**
+ * Created by Administrator on 2018/8/26 0026.
+ */
+$(document).ready(function(){
+
+    function code() {
+        var str = "qwertyuiopasdfghjklzxcvbnm1234567890QWERTYUIOPLKJHGFDSAZXCVBNM";
+        var str1 = 0;
+        for (var i = 0; i < 4; i++) {
+            str1 += str.charAt(Math.floor(Math.random() * 62))
+        }
+        str1 = str1.substring(1)
+        $(".code").text(str1);
+    }
+
+    code();
+    $(".code").click(code);
+    //  1)验证码框获得焦点：
+    //2)验证码框失去焦点
+    $('#code').blur(function () {
+        if ($(this).val().length == 0) {
+               $(".code_text").text("您的输入为空");
+               $(".code_text").css("color","red")
+
+        } else if ($(this).val().toUpperCase() != $('.code').text().toUpperCase()) {
+            $(".code_text").text("您的输入不正确");
+            $(".code_text").css("color","red")
+        } else {
+            $(".code_text").text("输入成功");
+        }
+    });
+//点击发送验证码之后
+    $("#verifyYz").click(function(){
+        $("#alert_text").css("display",'block');
+    })
+
+})
